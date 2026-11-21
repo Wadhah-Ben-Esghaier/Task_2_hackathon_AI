@@ -1,0 +1,62 @@
+{
+  "factuel": [
+    "What causes the seasons on Earth?",
+    "Explain how vaccines train the immune system.",
+    "Who was Ada Lovelace and why is she remembered?",
+    "Why is the sky blue during the day and red at sunset?",
+    "What is the difference between weather and climate?",
+    "How does a bill become a law in a parliamentary system?",
+    "Describe the main causes of the French Revolution.",
+    "What is inflation and how does it affect savings?",
+    "How do tides work?",
+    "What is the role of mitochondria in a cell?"
+  ],
+  "code": [
+    "Write a Python function that reverses a linked list.",
+    "Write a SQL query returning the top 3 customers by total order amount from tables customers(id, name) and orders(id, customer_id, amount).",
+    "Explain the difference between a list and a tuple in Python, with a short example.",
+    "Write a JavaScript function that debounces another function.",
+    "Implement binary search in C and explain its complexity.",
+    "What does this Python code print? print([i*i for i in range(5) if i % 2 == 0])",
+    "Write a bash one-liner that counts the lines in all .txt files of a directory.",
+    "Write a Python class for a stack with push, pop and peek.",
+    "Explain what a race condition is and give an example.",
+    "Write a regular expression matching a valid IPv4 address and explain it."
+  ],
+  "maths": [
+    "Solve 3x + 7 = 25 and show the steps.",
+    "What is the derivative of x^3 * sin(x)?",
+    "Compute the sum of the integers from 1 to 100 and justify the formula.",
+    "A fair die is rolled twice. What is the probability that the sum is 8?",
+    "Prove that the square root of 2 is irrational.",
+    "Find the eigenvalues of the matrix [[2, 1], [1, 2]].",
+    "What is the integral of 1/(1+x^2) from 0 to 1?",
+    "How many ways can 5 people be seated in a row if two of them refuse to sit together?",
+    "Explain what a prime number is and list the primes below 40.",
+    "Simplify (x^2 - 9)/(x - 3)."
+  ],
+  "creatif": [
+    "Write a four-line poem about the sea at night.",
+    "Write the opening paragraph of a mystery novel set in a lighthouse.",
+    "Invent a short dialogue between a robot and a gardener.",
+    "Describe a futuristic city in exactly three sentences.",
+    "Write a haiku about autumn rain.",
+    "Tell a very short fable with a moral about patience.",
+    "Write a product description for a pair of self-lacing shoes.",
+    "Write a limerick about a cat who loves mathematics.",
+    "Describe a marketplace in a fantasy world using all five senses.",
+    "Write a short thank-you note to a teacher."
+  ],
+  "raisonnement": [
+    "If all bloops are razzies and all razzies are lazzies, are all bloops lazzies? Explain.",
+    "A bat and a ball cost 1.10 dollars in total. The bat costs 1 dollar more than the ball. How much is the ball?",
+    "Give three arguments for and three against remote work.",
+    "I have 3 apples, eat one, buy 4 more, and give half of what I have to a friend. How many do I have?",
+    "What is wrong with the argument: 'Everyone I know likes pizza, so everyone likes pizza'?",
+    "Plan a 3-day study schedule for an exam covering four chapters.",
+    "Which is heavier, a kilogram of feathers or a kilogram of iron? Explain.",
+    "Summarize the plot of Romeo and Juliet in two sentences.",
+    "Give step-by-step instructions to make a cup of tea.",
+    "Compare cats and dogs as pets in a short table."
+  ]
+}
