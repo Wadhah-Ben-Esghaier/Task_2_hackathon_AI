@@ -9,7 +9,6 @@ Puis : python run.py ref --answers reference_answers.jsonl --truth practice_answ
 import os
 import sys
 from pathlib import Path
-
 import query_reference as q
 
 REPEATS = 6   # réponses par (endpoint, prompt) ; 50 prompts x 6 x 9 endpoints = 2700 requêtes
@@ -24,3 +23,5 @@ refs = [e for e in budget if e.startswith("ref-")]          # uniquement les ref
 print("Endpoints interrogés :", ", ".join(refs))
 q.query(q.read_prompts(Path("reference_prompts.jsonl")), output=Path("reference_answers.jsonl"),
         endpoints=refs, repeats=REPEATS)
+
+

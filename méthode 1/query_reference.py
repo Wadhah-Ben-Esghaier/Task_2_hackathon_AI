@@ -17,6 +17,7 @@ How to use:
 
 Needs: pip install requests
 """
+
 import csv
 import json
 import sys
@@ -28,7 +29,7 @@ from pathlib import Path
 import requests
 
 # CONFIG
-API_KEY = "YOUR_API_KEY_HERE"            # replace with your team's API key (keep the double quotes)
+API_KEY = "31dfa2cbf857b25d114310436a9cc788"            # replace with your team's API key (keep the double quotes)
 SERVER_URL = "http://34.147.229.55"
 TASK_ID = "33-model-equality"            # do not change
 PROMPTS_FILE = Path("reference_prompts.txt")     # one prompt per line (a .csv with columns id,prompt or a .jsonl also works)
@@ -151,7 +152,7 @@ def query(prompts: list, output: Path = ANSWERS_FILE, endpoints: list = ENDPOINT
 
 
 def main() -> None:
-    if API_KEY == "YOUR_API_KEY_HERE" or not API_KEY.strip():
+    if API_KEY == "31dfa2cbf857b25d114310436a9cc788" or not API_KEY.strip():
         print("Set API_KEY at the top of query_reference.py to your team's API key.", file=sys.stderr)
         raise SystemExit(1)
     if not PROMPTS_FILE.exists():
