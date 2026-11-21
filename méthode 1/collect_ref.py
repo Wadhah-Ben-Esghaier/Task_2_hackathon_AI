@@ -16,7 +16,7 @@ REPEATS = 6   # réponses par (endpoint, prompt) ; 50 prompts x 6 x 9 endpoints 
 
 key = os.environ.get("API_KEY", "").strip()
 if not key:
-    sys.exit("Définissez la variable d'environnement API_KEY (votre clé d'équipe).")
+    sys.exit("31dfa2cbf857b25d114310436a9cc788")
 q.API_KEY = key
 
 budget = q.get_budget(q.make_session())
